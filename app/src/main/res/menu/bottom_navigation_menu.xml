@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home" />
+
+    <item
+        android:id="@+id/keuangan"
+        android:title="Keuangan"
+        android:icon="@drawable/money" />
+
+    <item
+        android:id="@+id/robot"
+        android:title="Admin Chat"
+        android:icon="@drawable/robot" />
+
+    <item
+        android:id="@+id/profil"
+        android:title="Akun"
+        android:icon="@drawable/user" />
+
+</menu>

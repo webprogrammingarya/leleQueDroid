@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pembukuanPemasukan">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Catat"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aliran2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemasukan"
+        android:textColor="@android:color/transparent"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="Pemasukan"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="0dp"
+        android:background="@color/grey"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/grey"
+            />
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/grey"
+            />
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/grey"
+            />
+        <View
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/grey"
+            />
+
+        <ImageView
+            android:id="@+id/kategori"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/kategori2"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="Kategori"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp" />
+
+
+        <ImageButton
+            android:id="@+id/clickButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/angle_right"
+            android:background="@android:color/transparent"
+            android:contentDescription="tanggal"
+            android:onClick="showPopup2"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/pilihanKategori2"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:hint="Pilih Kategori"
+            android:background="@null"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/jumlah"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/jumlah"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="Jumlah"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/editTextJumlah2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="number"
+            android:hint="Jumlah Pengeluaran"
+            android:textColor="@android:color/darker_gray"
+            android:background="@null"
+            android:textSize="15sp" />
+
+
+        <ImageView
+            android:id="@+id/pencil"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="23dp"
+            android:src="@drawable/keterangan"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="Keterangan"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/editTextKeterangan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan Keterangan"
+            android:background="@null"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/tanggal"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="Tanggal"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/currentDateTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Tanggal Dibuat:"
+            android:textColor="@android:color/darker_gray"
+            android:background="@null"
+            android:textSize="15sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnSimpan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Simpan"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

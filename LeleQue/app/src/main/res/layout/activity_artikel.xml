@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Artikel">
+
+    <androidx.appcompat.widget.Toolbar
+        android:maxHeight="50dp"
+        android:id="@+id/toolbar"
+        android:layout_width="413dp"
+        android:layout_height="81dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/white"
+        android:elevation="4dp"
+        app:contentInsetStart="30dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Artikel"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <ImageView
+                android:id="@+id/imageartikel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/artikellele"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="19dp"
+                android:text="Admin"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="16dp"
+                android:text="12 September 2023"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="302dp" />
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="79dp"
+                android:text="Pahami 6 Penyakit yang Menyerang Lele, Berikut Gejala dan Cara Mengatasinya!"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="337dp" />
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="884dp"
+                android:text="Hai Sahabat Ulasan, bagi budidaya ikan lele perlu mengetahui sejumlah penyakit dapat menyerang ikan lele mulai dari yang ringan hingga parah jika tidak diatasi dengan cepat.
+
+Meskipun ikan lele memiliki tingkat ketahanan yang tinggi, bukan berarti mereka kebal terhadap penyakit.
+
+Ikan lele merupakan salah satu jenis ikan air tawar yang umumnya dipelihara oleh masyarakat karena memiliki beberapa keunggulan.
+
+Selain memiliki daging yang lezat dan dapat diolah menjadi berbagai hidangan, ikan lele juga dikenal karena ketahanannya terhadap berbagai kondisi lingkungan, menjadikannya pilihan utama dalam budidaya ikan.
+
+Ikan lele termasuk dalam kelompok hewan karnivora yang dapat hidup dalam kepadatan populasi yang tinggi. Mereka dapat bertahan dalam berbagai media budidaya, mulai dari kolam kecil hingga kolam besar, serta dapat dengan mudah beradaptasi dengan kondisi lingkungan.
+Penyakit pada ikan lele termasuk Bintik Putih, Jamur Air, Cotton Wool, Cacar, Gatal, dan Serangan Bakteri Aeromonas hydrophila.
+
+Berikut adalah beberapa penyakit tersebut beserta langkah-langkah penanggulangannya:
+
+1. Penyakit Bintik Putih
+Gejala: Bintik-bintik putih pada seluruh tubuh ikan.
+Penanggulangan: Jaga kebersihan kolam, pertahankan suhu air kolam di 28 derajat Celcius, pisahkan ikan yang terinfeksi, dan tambahkan garam ke kolam.
+2. Penyakit Jamur Air
+Gejala: Menyerang ikan yang sudah sakit, menempel pada tubuh yang mengalami penurunan imunitas.
+Penanggulangan: Pisahkan ikan ke kolam baru, karantina ikan yang terinfeksi hingga sembuh.
+3. Penyakit Cotton Wool
+Gejala: Luka, lapisan putih, dan bintik putih di permukaan tubuh ikan.
+Penanggulangan: Jaga sisa makanan agar tidak berlebihan, perbaiki manajemen pemberian pakan, pertahankan suhu air di sekitar 28 derajat Celcius.
+4. Penyakit Cacar
+Gejala: Muncul pada permukaan tubuh, disebabkan oleh kolam kotor.
+Penanggulangan: Ganti air kolam secara rutin, jaga kebersihan kolam, pisahkan ikan yang terinfeksi, dan berikan perawatan intensif.
+5. Penyakit Gatal
+Gejala: Disebabkan oleh bakteri Trichodina sp., ditandai dengan gerakan lemas dan warna kulit yang kusam.
+Pencegahan: Kurangi kepadatan bibit ikan.
+6. Serangan Bakteri Aeromonas hydrophila
+Gejala: Perut menggembung, sirip bengkak, dan luka pada permukaan tubuh.
+Pencegahan: Manajemen pemberian pakan yang baik, pembersihan kolam rutin. Pisahkan ikan yang terinfeksi dan berikan perawatan intensif."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="428dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
